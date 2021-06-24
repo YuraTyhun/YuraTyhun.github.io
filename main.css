@@ -1,10 +1,10 @@
-*{margin:0;padding:0}*,*::before,*::after{box-sizing:border-box}body{font-family:"Open Sans","Helvetica Neue",sans-serif;font-weight:normal;background-color:#555}
-.logo{color:#f65261;font-size:26px}.logo .netflix{font-weight:600}.logo .roulette{font-weight:400}
+*{margin:0;padding:0}*,*::before,*::after{box-sizing:border-box}body{font-family:"Helvetica Neue",sans-serif;font-weight:normal;background-color:#555}
+.header-container{margin-bottom:10px;background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),center/cover url(ac5e7d9c7e8d1fda8174fc6852598fd9.jpg)}.header-container .blur-filter{height:100%;padding:20px 60px 0;backdrop-filter:blur(3px)}
 .header-top-container{display:flex;justify-content:space-between}.header-top-container .add-movie-btn{width:184px;height:48px;font-size:22px;background-color:#555;color:#f65261;border:none;border-radius:4px;opacity:.7;cursor:pointer;outline:none}
+.logo{color:#f65261;font-size:26px}.logo .netflix{font-weight:600}.logo .roulette{font-weight:400}
 .header-main-container{display:flex;flex-direction:column;padding:25px 70px 120px}.header-main-container .main-title{margin-bottom:25px;color:#fff;font-weight:300;font-size:35px;letter-spacing:2px}
 .search-movie-container{display:flex}.search-movie-container .search-movie-btn{padding:15px 65px;font-size:20px;background-color:#f65261;color:#fff;border:none;border-radius:5px}
 .search-input-field{width:100%;padding:10px 15px;margin-right:10px;font-size:20px;color:#fff;border:none;border-radius:5px;background-color:#424242}
-.header-container{margin-bottom:10px;background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),center/cover url(ac5e7d9c7e8d1fda8174fc6852598fd9.jpg)}.header-container .blur-filter{height:100%;padding:20px 60px 0;backdrop-filter:blur(3px)}
 .footer-container{display:flex;justify-content:center;background-color:#424242;padding:15px 0}
 .main-content{background-color:#232323;padding:5px 50px}
 .results-menu-container{display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid #424242;padding-top:15px;height:50px}
@@ -14,7 +14,7 @@
 .select-sort{display:grid;grid-template-areas:"select";align-items:center;width:100%;max-width:200px;min-width:170px;padding:5px 7px;margin-left:20px}.select-sort select{appearance:none;background:transparent;color:#fff;border:none;font-size:18px;width:100%;outline:none;cursor:pointer;padding-right:20px;grid-area:select}.select-sort option{color:#232323;cursor:pointer}.select-sort::after{content:"";width:10px;height:6px;background-color:#f65261;clip-path:polygon(100% 0%, 0 0%, 50% 100%);grid-area:select;justify-self:end}
 .results-count-container{padding:25px 0;color:#fff;font-size:20px;letter-spacing:.6px;line-height:25px}.results-count-container span:nth-child(1){font-weight:bold}
 .movies-list-container{display:flex;justify-content:space-evenly;flex-wrap:wrap}
-.movie-card-container{position:relative;width:320px;margin:0 20px 30px;color:#fff}.movie-card-metadata{display:flex;justify-content:space-between;padding:15px 2px 7px}.movie-card-menu-icon{position:absolute;top:15px;right:15px;display:flex;justify-content:center;align-items:center;width:35px;height:35px;background-color:#232323;border:none;border-radius:50%;opacity:0}.movie-card-menu-icon img{width:35px;height:35px}.movie-card-container:hover .movie-card-menu-icon{opacity:1}
+.movie-card-container{position:relative;width:320px;margin:0 20px 30px;color:#fff}.movie-card-metadata{display:flex;justify-content:space-between;padding:15px 2px 7px}.movie-card-poster-btn{background-color:transparent;border:none}.movie-card-menu-icon{position:absolute;top:15px;right:15px;display:flex;justify-content:center;align-items:center;width:35px;height:35px;background-color:#232323;border:none;border-radius:50%;opacity:0}.movie-card-menu-icon img{width:35px;height:35px}.movie-card-container:hover .movie-card-menu-icon{opacity:1}
 .movie-card-poster{width:100%;max-height:450px;object-fit:cover}
 .movie-title{font-size:18px}
 .movie-release-date{font-size:16px;border:1px solid #555;border-radius:2px;padding:1px 15px}
